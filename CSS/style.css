@@ -1,0 +1,80 @@
+/* roboto */
+/* 
+
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* :root{ */
+    /* var(--w-colonna) */
+    /* --w-colonna: 130px; */
+    
+/* } */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 100px;
+}
+button, select{
+    height: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 90vh;
+
+}
+:root{
+    /* var(--w-campo) */
+    --w-campo: 600px;
+    
+}
+.campo{
+    width: calc(var(--w-campo) + 2px);
+    /* i due px sono il border */
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+
+.cella{
+    padding: 1%;
+    /* background-color: brown; */
+    border: 1px solid black;
+}
+.easy{
+    width: calc(var(--w-campo) / 10);
+    height: calc(var(--w-campo) / 10);
+}
+.medium{
+    width: calc(var(--w-campo) / 9);
+    height: calc(var(--w-campo) / 9);
+}
+.difficult{
+    /* width: calc(var(--w-campo) / 7);
+    height: calc(var(--w-campo) / 7); */
+    width: calc(var(--w-campo) / 7.001);
+    height: calc(var(--w-campo) / 7.001);
+    /* boh, altrimenti non ce ne stanno 7 */
+}
+
+.clicked{
+    background-color: aqua;
+}
+
+
