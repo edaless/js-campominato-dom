@@ -46,9 +46,9 @@ button, select{
 .campo{
     width: calc(var(--w-campo) + 2px);
     /* i due px sono il border */
-    display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
+    display: none;
 }
 
 
@@ -78,3 +78,13 @@ button, select{
 }
 
 
+
+.bomba.clicked{
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.visibile{    
+    display: flex;
+}
