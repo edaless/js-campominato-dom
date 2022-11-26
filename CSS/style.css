@@ -48,6 +48,7 @@ button, select{
     /* i due px sono il border */
     flex-wrap: wrap;
     border: 1px solid black;
+    /* display: flex; */
     display: none;
 }
 
@@ -79,9 +80,13 @@ button, select{
 
 
 
-.bomba.clicked{
+.bomba{
     background-color: rgb(255, 0, 0);
 }
+
+/* .bomba.clicked{
+    background-color: rgb(255, 0, 0);
+} */
 
 
 
